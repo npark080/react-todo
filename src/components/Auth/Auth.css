@@ -1,0 +1,54 @@
+/* span.profile img {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 10px;
+    border: 2px solid #fff;
+} */
+
+.log {
+    padding: 15vh 0;
+    background-color: #ccdcc3;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.log .card-header {
+    background-color: #293820;
+    color: #fff;
+}
+
+.log .card {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 2em;  
+    background-color: #d9e5d3;
+}
+
+.log img {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.log .btn-login {
+    background-color: #4d5d53;
+    color: #fff;
+}
+
+.btn-login:hover {
+    background-color: #8f9779 !important;
+}
+
+.log .btn-nvm {
+    background-color: #cb6843;
+    color: #fff;
+}
+
+.log .btn-nvm:hover {
+    background-color: #e0a58f;
+    color: #fff;
+}

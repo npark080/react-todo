@@ -1,0 +1,48 @@
+section.background {
+    background: url(./assets/images/plantbackground.jpg);
+    width: 100%;
+    min-height: 100vh;
+    background-attachment:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav .profile {
+    display: block;
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+img.pepe {
+    border-radius: 50%;
+    width: 60%;
+    padding-left: .5em;
+}
+
+Navbar {
+    background-color: black;
+}
+
+.btn-cancel {
+    background-color: #cb6843 !important;
+    color: #fff !important;
+}
+
+.btn-cancel:hover {
+    background-color: #e0a58f !important;
+    color: #fff !important;
+}
+
+.btn-submit {
+    background-color: #4d5d53 ! important;
+    color: #fff !important;
+}
+
+.btn-submit:hover {
+    background-color: #8f9779 !important;
+}

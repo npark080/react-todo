@@ -1,0 +1,24 @@
+.notFound {
+    padding: 15vh 0;
+    background-color: #ccdcc3;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.notFound .card {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    font-family: "Fira Code",monospace;
+    padding-bottom: 2em;  
+    background-color: #d9e5d3;
+}
+
+img {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10% 10%;
+}

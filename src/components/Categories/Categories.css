@@ -1,0 +1,62 @@
+section.categories article.categoriesGallery {
+    padding: 1em 0 4em;
+}
+
+section.categories article h1 {
+    padding: .5em;
+    color: #000;
+}
+
+
+div.singleCategory {
+    background-color: #d9e5d399;
+    color: #212529;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+div.singleCategory h3 {
+    padding: .25em 0;
+    margin: 0;
+}
+
+div.singleCategory p {
+    padding-bottom: .8em;
+    margin: 0;
+
+}
+
+.singleCategory button {
+    position: absolute;
+    font-size: 1.2em;
+    top: .5em;
+    background: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: .3s;
+}
+.categories button {
+    transition: .3s;
+}
+
+.singleCategory button#editLink {
+    left: .5em;
+}
+
+.singleCategory button#deleteLink {
+    right: .5em;
+}
+
+button#editLink:hover {
+    background-color: rgb(200, 200, 200);
+    color: #4aa16b;
+    border-color: #4aa16b;
+}
+
+button#deleteLink:hover {
+background-color: rgb(200, 200, 200);
+color: rgb(144, 45, 20);
+border-color: rgb(144, 45, 20);
+}

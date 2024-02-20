@@ -1,0 +1,23 @@
+section.todos article h1 {
+    padding: .5em;
+    color: #000;
+}
+
+div.todo-card {
+    color: #d9e5d3 !important;
+}
+
+button.btn-filter {
+    border-color: #000;
+    background-color: #d9e5d399;
+}
+
+button.btn-filter:hover {
+    border-color: #000;
+    color: #000;
+}
+
+h2.status {
+    background-color: #d9e5d399;
+    color: #000;
+}

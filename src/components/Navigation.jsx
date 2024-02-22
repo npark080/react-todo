@@ -3,14 +3,20 @@ import Navbar from 'react-bootstrap/Navbar'
 import { Link } from 'react-router-dom'
 import { useAuth } from '../contexts/AuthContext'
 import Profile from './Auth/Profile'
-import image from '../assets/images/pepe-cute.gif'
+import gif from '../assets/images/pepe-cute.gif'
+import image from '../assets/images/pepe-stale.png'
 
 export default function Navigation() {
   const { currentUser } = useAuth()
 
   return (
     <Navbar expand='md' bg='dark' data-bs-theme='dark'>
-        <Navbar.Brand href='/'><img className='pepe' src={image} alt="pepe frog dancing" /></Navbar.Brand>
+        {currentUser &&
+        <Navbar.Brand href='/'><img className='pepe' src={gif} alt="pepe the frog" /></Navbar.Brand>
+        }
+        {!currentUser &&
+          <Navbar.Brand href='/'><img className='pepe' src={image} alt="pepe frog dancing" /></Navbar.Brand>
+        } 
         <Navbar.Toggle />
         <Navbar.Collapse className='justify-content-end'>
         <Nav className='text-center p-3'>

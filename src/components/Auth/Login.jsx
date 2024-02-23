@@ -13,10 +13,6 @@ export default function Login() {
     return navigate('/Categories')
   }
 
-  async function nvm() {
-    return navigate('/')
-  }
-
   return (
     <div className='log'>
         <Card className="shadow">
@@ -28,9 +24,6 @@ export default function Login() {
                 <h5>Login with GitHub to get started:</h5>
                 <button className="btn btn-login m-3" onClick={() => handleAuth()}>
                     Let's Go!
-                </button>
-                <button className="btn btn-nvm m-3" onClick={() => nvm()}>
-                    JK nvm...
                 </button>
             </Card.Body>
         </Card>
